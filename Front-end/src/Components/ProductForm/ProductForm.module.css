@@ -1,0 +1,292 @@
+.productPag {
+  width: 100%;
+  padding-bottom: 1%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.productPagForm {
+  min-height: 44vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.h3 {
+  padding-left: 4%;
+  color: white;
+  font-size: 24px;
+  font-family: "Roboto";
+}
+
+.section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-bottom: 2%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #545776;
+  color: white;
+}
+
+.h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  padding-top: 3%;
+  text-align: center;
+}
+
+.h4 {
+  font-weight: lighter;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.p1 {
+  margin-left: 45%;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  line-height: 10px;
+  font-weight: bold;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.productForm {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 95%;
+}
+
+.label {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.input {
+  border: none;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  height: 40px;
+  width: 100%;
+  padding: 20 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.check {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 45%;
+  margin-left: 5%;
+  padding: 20 30px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.check :checked {
+  color: red;
+}
+
+.input :hover {
+  scale: 1.01;
+  transition: 0.2s;
+}
+
+.input :focus {
+  border: 2px solid;
+  color: rgb(96, 124, 138);
+}
+
+.flecha {
+  margin-right: 20px;
+  color: white;
+}
+
+.select {
+  padding: 0.5rem 0.5rem;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+  border-color: #545776;
+  border-radius: 8px;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilo cuando se pasa el cursor sobre el select */
+.select:hover {
+  background-color: #e6e6e672;
+}
+
+/* Estilo cuando el select está enfocado */
+.select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #5457768f;
+}
+
+/* Estilo de la flecha del select */
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Estilo de los elementos de la lista desplegable */
+.select option {
+  background-color: #fff;
+  color: black;
+}
+
+/* Estilo de los elementos seleccionados */
+.select option:checked {
+  background-color: #545776;
+  color: #fff;
+}
+
+.button {
+  border-radius: 8px;
+  border: 1px solid #1dbeb4;
+  width: 160px;
+  height: 40px;
+  color: white;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  background-color: #1dbeb4;
+  cursor: pointer;
+  border-color: #1dbeb4;
+  transition: border-color 0.25s;
+  align-self: center;
+}
+
+.file {
+  width: 100%;
+  margin-left: 40%;
+}
+
+.textarea {
+  border: none;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  height: 200px;
+  width: 100%;
+  padding: 20 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+  resize: none;
+  margin-left: 4%;
+  align-self: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.textarea :focus {
+  border: 2px solid rgb(96, 124, 138);
+}
+
+.textarea :hover {
+  scale: 1.01;
+  transition: 0.2s;
+}
+
+.textarea.label {
+  color: rgb(38, 50, 56);
+  margin-bottom: 5px;
+}
+
+.titleAlert {
+  font-family: "Roboto", sans-serif;
+  color: red;
+}
+
+.textAlert {
+  font-family: "Roboto", sans-serif;
+  color: red;
+}
+
+.confirmButton {
+  background-color: #1dbeb4;
+}
+
+/*Mobile*/
+
+@media (max-width: 480px) {
+  .productForm {
+    width: 100%;
+    max-width: 540px;
+  }
+  .table {
+    width: 100%;
+  }
+  .table tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .textarea {
+    width: 80%;
+  }
+  .fieldset input {
+    width: 300px;
+    font-size: 13px;
+    text-align: center;
+  }
+  .fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/*Tablet*/
+
+@media (min-width: 481px) and (max-width: 668px) {
+  .fieldset input {
+    width: 90%;
+    font-size: 14px;
+    margin: 1%;
+  }
+}
+
+/*Desktop*/
+
+@media (min-width: 769px) and (max-width: 1024px) {
+}

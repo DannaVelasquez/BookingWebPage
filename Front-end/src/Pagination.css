@@ -1,0 +1,26 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  ._pag_m17bd_27{
+    width: 100%;
+    margin: 0%;
+  }
+  .pagination li {
+    display: flex;
+    margin: 0 5px;
+  }
+  
+  .pagination li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+  }
+  
+  .pagination .active a {
+    font-weight: bold;
+    color: #1dbeb4;
+  }

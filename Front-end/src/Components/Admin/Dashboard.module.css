@@ -1,0 +1,11 @@
+.dashboardContainer {
+    display: flex;
+    height: auto
+  }
+  
+  
+  .contentContainer {
+    flex-grow: 1;
+    padding: 0px;
+  }
+  

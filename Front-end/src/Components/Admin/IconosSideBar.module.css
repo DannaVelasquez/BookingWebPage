@@ -1,0 +1,33 @@
+.containerAttr{
+    font-size: 16px;
+    padding: 0.1px;
+}
+
+.p{
+    padding: 0;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+}
+
+.icon{
+    color: #4e506b;
+    font-size: 20px;
+    padding-left: 14px;
+    
+    
+}
+@media (max-width: 490px){
+    .containerAttr{
+       
+        font-size: 12px;
+        padding:5px;
+        
+    
+    }
+    .icon{
+        
+        font-size: 16px;
+        
+    }
+}

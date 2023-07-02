@@ -1,0 +1,218 @@
+.header {
+  width: 100%;
+  height: auto;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  position: sticky;
+  z-index: 2
+}
+
+.p {
+  color: #545776;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 1em;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.h3{
+  color: #545776;
+  margin-top: 0%;
+  margin-bottom: 0px;
+  padding-left: 9%;
+  font-size: 17px;
+}
+
+.rol {
+  color: #545776;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  
+  font-size: 13px;
+  margin-top: 0px;
+  padding-bottom: 10%;
+  margin-bottom: 0%;
+  padding-left: 4%;
+  border-bottom: 1px solid #54577685;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container,
+.containerHamburger {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 6%;
+  width: auto;
+}
+
+
+
+.buttons {
+  border-radius: 8px;
+  border: 1px solid #1dbeb4;
+  width: 164px;
+  height: 40px;
+  color: #1dbeb4;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  cursor: pointer;
+  border-color: #1dbeb4;
+  transition: border-color 0.25s;
+  margin-right: 10px;
+}
+
+.buttons:hover {
+  border-color: #1dbeb3c8;
+  background-color: #1dbeb3be;
+  color: #ffffff;
+}
+
+.logo {
+  width: 80px;
+  height: 60px
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #545776;
+  cursor: pointer;
+}
+
+.listMenu{
+  position: fixed;
+  border-radius: 15px;
+  box-shadow: 0 0 5px 2px rgba(9, 9, 9, 0.426); 
+  top: 60px;
+  left: 0%;
+  min-height: 10%;
+  padding: 1% 0%;
+  margin-left: 86%;
+  background-color: #fff ;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+
+.buttonMenu {
+  border-color: transparent;
+  width: 164px;
+  height: 40px;
+  color: #545776;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  background-color: #1dbeb300;
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.25s;
+  border-bottom: 1px solid #54577685;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.listMenuHam{
+  position: fixed;
+  top: 45px;
+  left: 0;
+  width: 50%;
+  min-height: 10%;
+  padding: 3% 0%;
+  margin: 0% 2% 0% 44%;
+  background-color: #545772;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.login{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 2%;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #1dbeb4;
+  cursor: pointer;
+}
+.avatar:hover {
+  background-color:#545772;
+}
+.initials {
+  font-size: 20px;
+  font-weight: 900;
+
+  color: #fff;
+  align-items: center;
+}
+
+.containerHamburger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menuDesk {
+    display: none;
+  }
+  .containerHamburger {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .buttons {
+    margin-top: 10px;
+    margin-right: 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  .menu a {
+    margin-bottom: 10px;
+  }
+  .listMenu{
+    min-height: 10%;
+    padding: 1% 0%;
+    margin: 0% 2% 0% 66%;
+    justify-content: center;
+   
+  }
+}
+@media (max-width: 468px) {
+  .listMenu{
+    margin: 0% 2% 0% 50%;
+  }
+}

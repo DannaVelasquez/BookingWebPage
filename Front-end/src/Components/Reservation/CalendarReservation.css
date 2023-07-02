@@ -1,0 +1,29 @@
+.react-calendar .react-calendar__tile--active {
+    background-color: #1dbeb4;
+    color: #fefefe;
+  }
+  .react-calendar__viewContainer {
+    width: 95%;
+    padding: 1%;
+  }
+  
+  .react-calendar button {
+    color: #545776;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  .react-calendar {
+    border-radius: 10px;
+    border-color: #ffffff;
+    box-shadow: 0px 1px 5px rgb(96, 124, 138);
+    max-width: 100%;
+    padding: 1%;
+    text-align: center;
+  }
+  .react-calendar--doubleView .react-calendar__viewContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    padding: 1%;
+}  

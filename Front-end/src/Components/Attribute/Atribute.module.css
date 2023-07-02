@@ -1,0 +1,26 @@
+.containerAttr{
+    color:#4e506b;
+    font-size: 16px;
+    padding:10px;
+    
+
+}
+.icon{
+    color: #1DBEB4;
+    font-size: 20px;
+    
+}
+@media (max-width: 490px){
+    .containerAttr{
+       
+        font-size: 12px;
+        padding:5px;
+        
+    
+    }
+    .icon{
+        
+        font-size: 16px;
+        
+    }
+}

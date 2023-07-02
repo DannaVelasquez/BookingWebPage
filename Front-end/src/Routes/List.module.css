@@ -1,0 +1,65 @@
+.recom {
+  width: 100%;
+  padding-top: 0.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh;
+ 
+}
+.h3Div{
+  width: 100%;
+}
+
+.h3 {
+  margin: 2% 0%;
+  padding-left: 3%;
+  font-size: 22px;
+ 
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 50px; 
+    align-items: center;
+    justify-items: center;
+    width: 80%; 
+    padding-bottom: 5%;
+
+}
+
+.pag {
+  background-color: #545776;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 850px) {
+
+.grid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+}
+@media (min-width: 851px) and (max-width: 970px) {
+
+  .grid {
+ 
+   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    align-items: center;
+    justify-items: center;
+    width: 100%; 
+
+}
+  
+  }

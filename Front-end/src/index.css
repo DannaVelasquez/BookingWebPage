@@ -1,0 +1,106 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  color: #545776;
+}
+
+a {
+  text-decoration: none;
+  color: #545776;
+}
+
+button:hover {
+  font-weight: bold;
+  border-color: #1dbeb4;
+  border-width: 1%;
+}
+button:focus,
+button:focus-visible {
+  outline: 1px auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+button{
+  border: none;
+}
+
+.home{
+  width: 100%;
+  margin: 0%;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  min-height: 100vh;
+}
+::-webkit-scrollbar {
+  width: 0.7vw;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #545776;
+ 
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom right, #545776a8, #1dbeb3);
+  border-radius: 10px;
+}
+
+@media (max-width: 490px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .login {
+    height: 620px;
+    background-color: #f3f1ed;
+    color: #1dbeb4;
+    align-content: center;
+    width: 100%;
+  }
+}
+
+  /*Modelo responsive en pantallas de máximo 389px*/
+  @media (max-width: 390px) {
+    .header {
+      background-color: #45cbdf;
+      font-size: 11px;
+      position: relative;
+      position: fixed;
+      top: 0%;
+    }
+
+    button {
+      border-radius: 8px;
+      border: 1px solid transparent;
+      padding: 0.4em 1.3em;
+      font-size: 0.7em;
+      font-weight: 500;
+      font-family: inherit;
+      background-color: #d5e0e2;
+      cursor: pointer;
+      transition: border-color 0.25s;
+      margin-left: -1%;
+      margin-right: 8%;
+    }
+
+    .Logo {
+      align-self: center;
+    }
+  }
+  @media  (max-width: 700px) {
+    .App {
+   
+      width: 100vw;
+    }
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  }
+

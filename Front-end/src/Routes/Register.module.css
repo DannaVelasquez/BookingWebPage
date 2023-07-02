@@ -1,0 +1,190 @@
+.register{
+  width: 100%;
+}
+.h3 {
+  padding-left: 4%;
+  color: white;
+  font-family: "Roboto";
+  font-size: 24px;
+}
+
+.header {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #545776;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #fff;
+  padding-bottom: 2%;
+  align-items: center;
+  width: 90%;
+  padding-top: 2%;
+}
+
+.h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  color: #1dbeb4;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.p {
+  font-style: normal;
+  font-weight: bolder;
+  margin-left: 10px;
+  line-height: 14px;
+  color: #545776;
+  font-family: "Roboto", sans-serif;
+}
+.productForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 350px;
+}
+
+.label {
+  color: #fff;
+  align-items: center;
+  text-align: center;
+}
+
+.input {
+  border: none;
+  box-shadow: 0px 1px 5px #545776bc; ;
+  border-radius: 5px;
+  height: 40px;
+  width: 100%;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.input :hover {
+  scale: 1.01;
+  transition: 0.2s;
+}
+
+.input :focus {
+  border: 2px solid;
+  color: rgb(96, 124, 138);
+}
+
+.button {
+  border-radius: 8px;
+  border: 1px solid #1dbeb4;
+  width: 160px;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  background-color: #1dbeb4;
+  cursor: pointer;
+  border-color: #1dbeb4;
+  transition: border-color 0.25s;
+  align-self: center;
+}
+
+
+.titleAlert {
+  font-family: "Roboto", sans-serif;
+  color: red;
+}
+
+.textAlert {
+  font-family: "Roboto", sans-serif;
+  color: red;
+}
+
+
+
+.containerHeader{
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content:flex-start;
+
+}
+.logo1 {
+  width: 80px;
+  height: 60px
+}
+
+
+.buttons {
+  border-radius: 8px;
+  border: 1px solid #1dbeb4;
+  width: 164px;
+  height: 40px;
+  color: #1dbeb4;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  cursor: pointer;
+  border-color: #1dbeb4;
+  transition: border-color 0.25s;
+  margin-right: 10px;
+}
+
+.buttons:hover {
+  border-color: #1dbeb3c8;
+  background-color: #1dbeb3be;
+  color: #ffffff;
+}
+.pHeader{
+  color: #545776;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 1em;
+  margin-left: 10px;
+  text-decoration: none;
+}
+.pLink{
+  font-size: 14px;
+}
+
+.pLink:hover{
+  text-decoration:underline;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .productForm {
+    width: 100%;
+    max-width: 540px;
+  }
+}
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+}

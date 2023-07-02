@@ -1,0 +1,101 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "image": "https://st.depositphotos.com/1993283/3428/i/450/depositphotos_34288889-stock-photo-tourist-on-mountain-top.jpg",
+      "category": "Adrenalina",
+      "amount": 1280,
+      "type": ""
+    },
+    {
+      "id": 2,
+      "image": "https://www.wolftourscolombia.com/fotossubsecciones/thumb_subseccion_106.jpg",
+      "category": "Naturaleza",
+      "amount": 586,
+      "type": "hostel"
+    },
+    {
+      "id": 3,
+      "image": "https://d3tf9yuhsp2bpn.cloudfront.net/images/2020/09/29/20200929-1601379237-gastronomia-categorias-guadalajara-tuexperiencia.jpg",
+      "category": "Gastronomia",
+      "amount": 389,
+      "type": ""
+    },
+    {
+      "id": 4,
+      "image": "https://www.eluniversal.com.mx/resizer/NT1hQHdtbAJ5obEs7udUwXeaylo=/1100x666/cloudfront-us-east-1.images.arcpublishing.com/eluniversal/5IXKCB7EMRBC7INZRUKBOI3M54.jpg",
+      "category": "Cultura",
+      "amount": 2135,
+      "type": ""
+    }
+  ],
+  "recommendations": [
+    {
+      "id": 1,
+      "image": "",
+      "category": "",
+      "title": "Recomendacion 1",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": 2,
+      "image": "",
+      "category": "",
+      "title": "Recomendacion 2",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "image": "",
+      "category": "Recomendacion 3",
+      "title": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "image": "",
+      "category": "Recomendacion 4",
+      "title": "",
+      "location": "",
+      "description": ""
+    }
+  ],
+  "products": [{
+    "id": 1,
+    "title": "Tour en las alturas",
+    "description": "Descripcion 1",
+    "images": ["https://media-cdn.tripadvisor.com/media/photo-s/16/8f/6b/ea/los-cabos-desde-las-alturas.jpg", "https://media-cdn.tripadvisor.com/media/photo-s/16/8f/6b/ea/los-cabos-desde-las-alturas.jpg" ],
+    "durationInDays": 2,
+    "category": 1,
+    "attribute":["hospedaje","transporte","comida","entrada","equipo","bebida","desayuno"]
+  },
+  {
+    "id": 2,
+    "title": "Tour en las alturas",
+    "description": "Descripcion 1",
+    "images": ["https://media-cdn.tripadvisor.com/media/photo-s/16/8f/6b/ea/los-cabos-desde-las-alturas.jpg", 
+    "https://media-cdn.tripadvisor.com/media/photo-s/05/fe/12/7d/amazonas-jungle-tours.jpg",
+    "https://landingwebimg.s3.amazonaws.com/uploads/landing_page_post/image_header/4599/image-upload1634225481.jpeg",
+    "https://elcomercio.pe/resizer/UqP9OTkjnay5N7KGla74HeQCi-o=/980x0/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/X53DGILZKREGDCLTWC24O3HSVM.jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ21HhgmCGNfbxcTnx7MqkrAxLDdvN7mZ176w&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ21HhgmCGNfbxcTnx7MqkrAxLDdvN7mZ176w&usqp=CAU" ],
+    "durationInDays": 2,
+    "category": 1,
+    "attribute":["hospedaje","transporte","comida","entrada","equipo","bebida","desayuno"]
+  }
+],
+"user": [
+  {
+    "username": "danna@gmail.com",
+    "nickname": "dana",
+    "password": "1234",
+    "repeatedPassword": "1234",
+    "firstname": "Danna",
+    "lastname": "Velasquez",
+    "birthDate": "24/04/95"
+}
+]
+}

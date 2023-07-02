@@ -1,0 +1,154 @@
+.admin {
+  min-height: 78vh;
+  background-color: #fff;
+  color: #1dbeb4;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  background-color: #545776;
+  color: white;
+  position: fixed;
+  top: 10%;
+}
+.buttonExp{
+  display: flex;
+  align-items: center;
+  justify-content:center; 
+  padding: 120px 0px 50px
+}
+
+.h3 {
+  color: white;
+  font-size: 24px;
+  
+}
+
+.button {
+  border-radius: 8px;
+  border: 1px solid #1dbeb4;
+  width: 250px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #1dbeb4;
+  cursor: pointer;
+  border-color: #1dbeb4;
+  transition: border-color 0.25s;
+  
+}
+.button a{
+  color: white;
+}
+.button a:hover{
+  color: #1dbeb3;
+}
+.button:hover {
+  border-color: #1dbeb3;
+  background-color: #ffffff09;
+  
+}
+
+.table {
+  width: 100%;
+  height: auto;
+  border-collapse: separate;
+  color: #545776;
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.th,
+.td {
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  background-color: #ffff;
+  
+}
+
+.th {
+  background-color: #fff;
+  color: #545776;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.tr {
+  margin-top: 1%;
+  background-color: #fff;
+  color: #fff;
+  text-align: center;
+ 
+}
+
+.li {
+  margin-bottom: 8px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #545776;
+  color: #fff;
+  padding-left: 2%;
+  width: 500px
+}
+
+.delete {
+  padding: 8px 12px;
+  background-color: #9f9c9c;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete:hover {
+  background-color: #c0392b;
+}
+
+.li:hover {
+  background-color: #fff;
+  color: #545776;
+}
+
+.flecha {
+  margin-right: 20px;
+  color: white;
+}
+@media (max-width: 490px) {
+  .li{
+    width: 300px;
+  }
+  .admin {
+   min-height: 86vh;}
+
+  .buttonExp{
+
+   justify-content:center; 
+   width: 100%;
+  
+ }
+
+ .header{
+  top: 6.5%;
+ }
+}
+@media (min-width: 491px) and (max-width: 768px) {
+  .li{
+    width: 400px;
+  }
+}

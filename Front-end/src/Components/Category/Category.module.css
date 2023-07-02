@@ -1,0 +1,45 @@
+.category {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cardContainer {
+  width: 100%;
+  height: 300px;;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.titleConteiner{
+  width: 100%;
+}
+.h3 {
+  padding-left: 3%;
+  font-size: 22px;
+}
+
+ .grid {
+  width: 100%;
+  padding-left: 5%; 
+} 
+.gridMovile{
+ display: none;
+}
+
+@media (max-width : 779px){
+  .grid{
+    display: none;
+  }
+  .gridMovile{
+    display: inline;
+    width: 100%;
+   
+  }
+}
+

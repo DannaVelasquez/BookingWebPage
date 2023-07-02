@@ -1,0 +1,218 @@
+.admin {
+  min-height: 78vh;
+  background-color: #fff;
+  color: #1dbeb4;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #545776;
+  color: white;
+  position: fixed;
+  top: 10%;
+}
+.buttonExp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 0px 50px;
+}
+
+.h3 {
+  color: white;
+  font-size: 24px;
+}
+
+.button {
+  border-radius: 8px;
+  border: 1px solid #1dbeb4;
+  width: 250px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #1dbeb4;
+  cursor: pointer;
+  border-color: #1dbeb4;
+  transition: border-color 0.25s;
+}
+.button a {
+  color: white;
+}
+.button a:hover {
+  color: #1dbeb3;
+}
+.button:hover {
+  border-color: #1dbeb3;
+  background-color: #ffffff09;
+}
+
+.table {
+  width: 100%;
+  height: auto;
+  border-collapse: separate;
+  color: #545776;
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.th,
+.td {
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  background-color: #ffff;
+}
+
+.th {
+  background-color: #fff;
+  color: #545776;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.tr {
+  margin-top: 1%;
+  background-color: #fff;
+  color: #fff;
+  text-align: center;
+}
+
+.li {
+  margin-bottom: 8px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #545776eb;
+  color: #fff;
+  padding-left: 2%;
+  width: 500px;
+}
+
+.li:hover {
+  background-color: #fff;
+  color: #545776;
+  font-weight: bold;
+}
+
+.delete {
+  padding: 8px 12px;
+  background-color: #9f9c9c;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.update {
+  padding: 8px 12px;
+  background-color: #9f9c9c;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.update:hover {
+  background-color: #198de6;
+}
+
+.delete:hover {
+  background-color: #e74c3c;
+}
+
+.flecha {
+  margin-right: 20px;
+  color: white;
+}
+
+/* Estilos para el prompt de SweetAlert2 */
+.swalPopup {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.swalTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.swalInput {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.swalConfirmButton {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #1dbeb4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.swalCancelButton {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #ddd;
+  color: #8d0f0f;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Otros estilos */
+
+/* ... Agrega aquí los estilos existentes ... */
+
+
+
+@media (max-width: 490px) {
+  .li{
+    width: 300px;
+  }
+  .admin {
+   min-height: 86vh;}
+
+  .buttonExp{
+
+   justify-content:center; 
+   width: 100%;
+  
+ }
+
+ .header{
+  top: 6.5%;
+ }
+}
+@media (min-width: 491px) and (max-width: 768px) {
+  .li{
+    width: 400px;
+  }
+}

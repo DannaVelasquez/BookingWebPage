@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "image": "",
+      "category": "",
+      "amount": 0,
+      "type": ""
+    },
+    {
+      "id": 2,
+      "image": "",
+      "category": "",
+      "amount": 0,
+      "type": "hostel"
+    },
+    {
+      "id": 3,
+      "image": "",
+      "category": "",
+      "amount": 0,
+      "type": ""
+    },
+    {
+      "id": 4,
+      "image": "",
+      "category": "",
+      "amount": 0,
+      "type": ""
+    }
+  ]
